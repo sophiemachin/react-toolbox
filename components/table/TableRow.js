@@ -42,6 +42,7 @@ const factory = (Checkbox, TableCell) => {
             return cloneElement(child, {
               column: index,
               tagName: 'td',
+              row: idx,
             });
           })}
         </tr>
